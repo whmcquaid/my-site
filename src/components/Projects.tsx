@@ -1,7 +1,7 @@
 const restOfProps = {
   position: 'absolute',
-  height: '400px',
-  width: '400px',
+  height: '365px',
+  width: '365px',
   border: '8px solid silver',
   paddingBottom: '25px',
 };

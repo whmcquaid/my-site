@@ -60,12 +60,12 @@ ul {
   flex-direction: column;
   margin-left: 250px;
 }
-.about {
+#about {
   padding: 25px;
   font-size: 1.3em;
   font-weight: 600;
-  width: 50%;
-  align-self: center;
+  width: 75%;
+  justify-content: center;
 }
 
 .contact-email {
@@ -118,7 +118,7 @@ span {
   padding-right: 30px;
 }
 
-.headshot {
+#headshot {
   border: 5px solid silver;
   border-radius: 65px;
 }
@@ -131,16 +131,61 @@ span {
     width: 100%;
   }
   .about-container {
+    max-width: 100%;
     display: block;
     align-items: center;
     margin: 0;
+    justify-content: center;
   }
-  .headshot {
+  #headshot {
     border-radius: 35px;
   }
   [alt='Me: William McQuaid'] {
     height: 250px;
     width: 250px;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    width: 100%;
+  }
+  .about-container {
+    padding-left: 1rem;
+    display: block;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+  }
+  #headshot {
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  .right-col {
+    width: 0;
+    margin: 0 auto;
+  }
+
+  .left-col {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #about {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 350px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  [alt='Me: William McQuaid'] {
+    height: 200px;
+    width: 200px;
   }
   .footer {
     width: 100%;
