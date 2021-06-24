@@ -1,1 +1,1 @@
-# Preview available  <a href= 'loving-morse-f9c606.netlify.app'> Here </a>
+# Preview available  <a href= 'http://loving-morse-f9c606.netlify.app'> Here </a>
