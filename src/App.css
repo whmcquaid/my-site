@@ -137,6 +137,18 @@ span {
     margin: 0;
     justify-content: center;
   }
+  .right-col {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .left-col {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
   #headshot {
     border-radius: 35px;
   }
