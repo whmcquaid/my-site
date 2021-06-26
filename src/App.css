@@ -40,16 +40,23 @@ ul {
   font-weight: 600;
   padding-right: 10px;
 }
-
+.Nav-container ul li {
+  min-width: 100px;
+}
 .projects {
   text-align: center;
   align-content: center;
+  margin-bottom: 2rem;
+}
+.projects div {
+  margin-bottom: 3rem;
 }
 .about-container {
   padding-top: 30px;
   margin: auto;
   display: inline-flex;
   align-self: center;
+  padding-bottom: 80px;
 }
 .right-col {
   flex-direction: column;
@@ -160,6 +167,7 @@ span {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 450px) {
   .header {
     width: 100%;
