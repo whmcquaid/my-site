@@ -47,7 +47,6 @@ const Projects = () => {
         <div className='project1'>
           <a href='http://whmcquaid.github.io/React-RMDB/'>
             <h3>React Movie App</h3>
-            <h4>JavaScript, React, HTML, CSS</h4>
             <form>
               <label className='description-label' htmlFor='description-input'>
                 Description:
@@ -66,7 +65,6 @@ const Projects = () => {
         <div className='project2'>
           <a href='http://whmcquaid.github.io/rock_paper_scissors'>
             <h3>Rock Paper Scissors</h3>
-            <h4>JavaScript, React, HTML, CSS</h4>
             <form>
               <label className='description-label' htmlFor='description-input'>
                 Description:
@@ -85,7 +83,6 @@ const Projects = () => {
         <div className='project3'>
           <a href='http://whmcquaid.github.io/tic-tac-toe'>
             <h3>Tic Tac Toe</h3>
-            <h4>JavaScript, React, HTML, CSS</h4>
             <form>
               <label className='description-label' htmlFor='description-input'>
                 Description:
@@ -104,7 +101,6 @@ const Projects = () => {
         <div className='project4'>
           <a href='http://whmcquaid.github.io/etch_a_sketch'>
             <h3>Etch A Sketch</h3>
-            <h4>JavaScript, HTML, CSS</h4>
             <form>
               <label className='description-label' htmlFor='description-input'>
                 Description:
@@ -123,7 +119,6 @@ const Projects = () => {
         <div className='project5'>
           <a href='http://whmcquaid.github.io/library_app'>
             <h3>Library App</h3>
-            <h4>JavaScript, HTML, CSS</h4>
             <form>
               <label className='description-label' htmlFor='description-input'>
                 Description:
@@ -142,7 +137,6 @@ const Projects = () => {
         <div className='project6'>
           <a href='http://whmcquaid.github.io/todo_list'>
             <h3>Todo List App</h3>
-            <h4>TypeScript, React, HTML, CSS</h4>
             <form>
               <label className='description-label' htmlFor='description-input'>
                 Description:

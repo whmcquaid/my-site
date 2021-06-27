@@ -48,6 +48,13 @@ ul {
   align-content: center;
   margin-bottom: 2rem;
 }
+.description {
+  margin: 1rem;
+}
+.description-label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 .projects div {
   margin-bottom: 3rem;
 }
