@@ -124,6 +124,12 @@ Link {
 .footer a {
   padding-right: 15px;
 }
+.footer p {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 1rem;
+}
 span {
   padding-right: 30px;
 }

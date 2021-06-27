@@ -1,3 +1,7 @@
+import ProjectDescription from './ProjectDescription';
+import { useState } from 'react';
+import Descriptions from './Descriptions';
+
 const restOfProps = {
   position: 'absolute',
   height: '365px',
@@ -31,6 +35,12 @@ const props6 = {
 };
 
 const Projects = () => {
+  const [showDescription1, setShowDescription1] = useState(false);
+  const [showDescription2, setShowDescription2] = useState(false);
+  const [showDescription3, setShowDescription3] = useState(false);
+  const [showDescription4, setShowDescription4] = useState(false);
+  const [showDescription5, setShowDescription5] = useState(false);
+  const [showDescription6, setShowDescription6] = useState(false);
   return (
     <>
       <div className='projects'>
@@ -38,6 +48,18 @@ const Projects = () => {
           <a href='http://whmcquaid.github.io/React-RMDB/'>
             <h3>React Movie App</h3>
             <h4>JavaScript, React, HTML, CSS</h4>
+            <form>
+              <label className='description-label' htmlFor='description-input'>
+                Description:
+              </label>
+              <input
+                type='checkbox'
+                onChange={() => setShowDescription1(!showDescription1)}
+              />
+            </form>
+            {showDescription1 ? (
+              <ProjectDescription {...Descriptions.desc1} />
+            ) : null}
             <iframe title='React RMDB' {...props1}></iframe>
           </a>
         </div>
@@ -45,6 +67,18 @@ const Projects = () => {
           <a href='http://whmcquaid.github.io/rock_paper_scissors'>
             <h3>Rock Paper Scissors</h3>
             <h4>JavaScript, React, HTML, CSS</h4>
+            <form>
+              <label className='description-label' htmlFor='description-input'>
+                Description:
+              </label>
+              <input
+                type='checkbox'
+                onChange={() => setShowDescription2(!showDescription2)}
+              />
+            </form>
+            {showDescription2 ? (
+              <ProjectDescription {...Descriptions.desc2} />
+            ) : null}
             <iframe title='Rock Paper Scissors' {...props2}></iframe>
           </a>
         </div>
@@ -52,6 +86,18 @@ const Projects = () => {
           <a href='http://whmcquaid.github.io/tic-tac-toe'>
             <h3>Tic Tac Toe</h3>
             <h4>JavaScript, React, HTML, CSS</h4>
+            <form>
+              <label className='description-label' htmlFor='description-input'>
+                Description:
+              </label>
+              <input
+                type='checkbox'
+                onChange={() => setShowDescription3(!showDescription3)}
+              />
+            </form>
+            {showDescription3 ? (
+              <ProjectDescription {...Descriptions.desc3} />
+            ) : null}
             <iframe title='Tic Tac Toe' {...props3}></iframe>
           </a>
         </div>
@@ -59,6 +105,18 @@ const Projects = () => {
           <a href='http://whmcquaid.github.io/etch_a_sketch'>
             <h3>Etch A Sketch</h3>
             <h4>JavaScript, HTML, CSS</h4>
+            <form>
+              <label className='description-label' htmlFor='description-input'>
+                Description:
+              </label>
+              <input
+                type='checkbox'
+                onChange={() => setShowDescription4(!showDescription4)}
+              />
+            </form>
+            {showDescription4 ? (
+              <ProjectDescription {...Descriptions.desc4} />
+            ) : null}
             <iframe title='Etch a Sketch' {...props4}></iframe>
           </a>
         </div>
@@ -66,6 +124,18 @@ const Projects = () => {
           <a href='http://whmcquaid.github.io/library_app'>
             <h3>Library App</h3>
             <h4>JavaScript, HTML, CSS</h4>
+            <form>
+              <label className='description-label' htmlFor='description-input'>
+                Description:
+              </label>
+              <input
+                type='checkbox'
+                onChange={() => setShowDescription5(!showDescription5)}
+              />
+            </form>
+            {showDescription5 ? (
+              <ProjectDescription {...Descriptions.desc5} />
+            ) : null}
             <iframe title='Library App' {...props5}></iframe>
           </a>
         </div>
@@ -73,6 +143,18 @@ const Projects = () => {
           <a href='http://whmcquaid.github.io/todo_list'>
             <h3>Todo List App</h3>
             <h4>TypeScript, React, HTML, CSS</h4>
+            <form>
+              <label className='description-label' htmlFor='description-input'>
+                Description:
+              </label>
+              <input
+                type='checkbox'
+                onChange={() => setShowDescription6(!showDescription6)}
+              />
+            </form>
+            {showDescription6 ? (
+              <ProjectDescription {...Descriptions.desc6} />
+            ) : null}
             <iframe title='Todo List App' {...props6}></iframe>
           </a>
         </div>
