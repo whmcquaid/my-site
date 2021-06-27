@@ -1,38 +1,7 @@
 import ProjectDescription from './ProjectDescription';
 import { useState } from 'react';
 import Descriptions from './Descriptions';
-
-const restOfProps = {
-  position: 'absolute',
-  height: '365px',
-  width: '365px',
-  border: '8px solid silver',
-  paddingBottom: '25px',
-};
-const props1 = {
-  src: 'https://whmcquaid.github.io/React-RMDB/',
-  ...restOfProps,
-};
-const props2 = {
-  src: 'https://whmcquaid.github.io/rock_paper_scissors/',
-  ...restOfProps,
-};
-const props3 = {
-  src: 'https://whmcquaid.github.io/tic-tac-toe/',
-  ...restOfProps,
-};
-const props4 = {
-  src: 'https://whmcquaid.github.io/etch_a_sketch',
-  ...restOfProps,
-};
-const props5 = {
-  src: 'https://whmcquaid.github.io/library_app',
-  ...restOfProps,
-};
-const props6 = {
-  src: 'https://whmcquaid.github.io/todo_list',
-  ...restOfProps,
-};
+import FrameProps from './FrameProps';
 
 const Projects = () => {
   const [showDescription1, setShowDescription1] = useState(false);
@@ -46,111 +15,129 @@ const Projects = () => {
       <div className='projects'>
         <div className='project1'>
           <a href='http://whmcquaid.github.io/React-RMDB/'>
-            <h3>React Movie App</h3>
-            <form>
-              <label className='description-label' htmlFor='description-input'>
-                Description:
-              </label>
-              <input
-                type='checkbox'
-                onChange={() => setShowDescription1(!showDescription1)}
-              />
-            </form>
-            {showDescription1 ? (
-              <ProjectDescription {...Descriptions.desc1} />
-            ) : null}
-            <iframe title='React RMDB' {...props1}></iframe>
+            <h2>React Movie App</h2>
           </a>
+          <div>
+            <button
+              className='desc-button'
+              onClick={() => setShowDescription1(!showDescription1)}
+            >
+              Description: ...
+            </button>
+          </div>
+          {showDescription1 ? (
+            <ProjectDescription {...Descriptions.desc1} />
+          ) : null}
+          <iframe
+            title='React RMDB'
+            {...FrameProps.props1}
+            {...FrameProps.props1.restOfProps}
+          ></iframe>
         </div>
         <div className='project2'>
           <a href='http://whmcquaid.github.io/rock_paper_scissors'>
-            <h3>Rock Paper Scissors</h3>
-            <form>
-              <label className='description-label' htmlFor='description-input'>
-                Description:
-              </label>
-              <input
-                type='checkbox'
-                onChange={() => setShowDescription2(!showDescription2)}
-              />
-            </form>
-            {showDescription2 ? (
-              <ProjectDescription {...Descriptions.desc2} />
-            ) : null}
-            <iframe title='Rock Paper Scissors' {...props2}></iframe>
+            <h2>Rock Paper Scissors</h2>
           </a>
+          <div>
+            <button
+              className='desc-button'
+              onClick={() => setShowDescription2(!showDescription2)}
+            >
+              Description: ...
+            </button>
+          </div>
+          {showDescription2 ? (
+            <ProjectDescription {...Descriptions.desc2} />
+          ) : null}
+          <iframe
+            title='Rock Paper Scissors'
+            {...FrameProps.props2}
+            {...FrameProps.props2.restOfProps}
+          ></iframe>
         </div>
         <div className='project3'>
           <a href='http://whmcquaid.github.io/tic-tac-toe'>
-            <h3>Tic Tac Toe</h3>
-            <form>
-              <label className='description-label' htmlFor='description-input'>
-                Description:
-              </label>
-              <input
-                type='checkbox'
-                onChange={() => setShowDescription3(!showDescription3)}
-              />
-            </form>
-            {showDescription3 ? (
-              <ProjectDescription {...Descriptions.desc3} />
-            ) : null}
-            <iframe title='Tic Tac Toe' {...props3}></iframe>
+            <h2>Tic Tac Toe</h2>
           </a>
+          <div>
+            <button
+              className='desc-button'
+              onClick={() => setShowDescription3(!showDescription3)}
+            >
+              Description: ...
+            </button>
+          </div>
+          {showDescription3 ? (
+            <ProjectDescription {...Descriptions.desc3} />
+          ) : null}
+          <iframe
+            title='Tic Tac Toe'
+            {...FrameProps.props3}
+            {...FrameProps.props3.restOfProps}
+          ></iframe>
         </div>
         <div className='project4'>
           <a href='http://whmcquaid.github.io/etch_a_sketch'>
-            <h3>Etch A Sketch</h3>
-            <form>
-              <label className='description-label' htmlFor='description-input'>
-                Description:
-              </label>
-              <input
-                type='checkbox'
-                onChange={() => setShowDescription4(!showDescription4)}
-              />
-            </form>
-            {showDescription4 ? (
-              <ProjectDescription {...Descriptions.desc4} />
-            ) : null}
-            <iframe title='Etch a Sketch' {...props4}></iframe>
+            <h2>Etch A Sketch</h2>
           </a>
+          <div>
+            <button
+              className='desc-button'
+              onClick={() => setShowDescription4(!showDescription4)}
+            >
+              Description: ...
+            </button>
+          </div>
+          {showDescription4 ? (
+            <ProjectDescription {...Descriptions.desc4} />
+          ) : null}
+          <iframe
+            title='Etch a Sketch'
+            {...FrameProps.props4}
+            {...FrameProps.props4.restOfProps}
+          ></iframe>
         </div>
         <div className='project5'>
           <a href='http://whmcquaid.github.io/library_app'>
-            <h3>Library App</h3>
-            <form>
-              <label className='description-label' htmlFor='description-input'>
-                Description:
-              </label>
-              <input
-                type='checkbox'
-                onChange={() => setShowDescription5(!showDescription5)}
-              />
-            </form>
-            {showDescription5 ? (
-              <ProjectDescription {...Descriptions.desc5} />
-            ) : null}
-            <iframe title='Library App' {...props5}></iframe>
+            <h2>Library App</h2>
           </a>
+          <div>
+            <button
+              className='desc-button'
+              onClick={() => setShowDescription5(!showDescription5)}
+            >
+              Description: ...
+            </button>
+          </div>
+          {showDescription5 ? (
+            <ProjectDescription {...Descriptions.desc5} />
+          ) : null}
+          <iframe
+            title='Library App'
+            {...FrameProps.props5}
+            {...FrameProps.props5.restOfProps}
+          ></iframe>
         </div>
         <div className='project6'>
           <a href='http://whmcquaid.github.io/todo_list'>
             <h3>Todo List App</h3>
-            <form>
-              <label className='description-label' htmlFor='description-input'>
-                Description:
-              </label>
-              <input
-                type='checkbox'
-                onChange={() => setShowDescription6(!showDescription6)}
-              />
-            </form>
-            {showDescription6 ? (
-              <ProjectDescription {...Descriptions.desc6} />
-            ) : null}
-            <iframe title='Todo List App' {...props6}></iframe>
           </a>
+          <div>
+            <button
+              className='desc-button'
+              onClick={() => setShowDescription6(!showDescription6)}
+            >
+              Description: ...
+            </button>
+          </div>
+          {showDescription6 ? (
+            <ProjectDescription {...Descriptions.desc6} />
+          ) : null}
+          <iframe
+            title='Todo List App'
+            {...FrameProps.props6}
+            {...FrameProps.props6.restOfProps}
+          ></iframe>
         </div>
       </div>
     </>

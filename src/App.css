@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: wheat;
+  color: rgb(245, 191, 90);
 }
 body {
   background-color: rgb(0, 0, 0);
@@ -47,13 +47,27 @@ ul {
   text-align: center;
   align-content: center;
   margin-bottom: 2rem;
+  display: block;
 }
+
 .description {
   margin: 1rem;
 }
-.description-label {
-  font-size: 1.2rem;
-  font-weight: 500;
+.desc-button {
+  min-width: 44px;
+  background-color: orange;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+  margin: 10px 0px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+}
+.desc-button:hover {
+  color: red;
+  background-color: rgb(243, 238, 229);
+  box-shadow: 2px 4px 4px lightgray;
 }
 .projects div {
   margin-bottom: 3rem;
