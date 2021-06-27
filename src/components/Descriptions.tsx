@@ -7,7 +7,7 @@ const Descriptions = {
   desc2: {
     tech: 'JavaScript, HTML, CSS',
     description:
-      'I built this Rock, Paper, Scissors game to solidify the basics of JavaScript, html, and css.  This is still one of my favorite projects',
+      'I built this Rock, Paper, Scissors game to solidify the basics of JavaScript, html, and css.  This is still one of my favorite projects.',
   },
   desc3: {
     tech: 'JavaScript, React, HTML, CSS',
@@ -27,7 +27,7 @@ const Descriptions = {
   desc6: {
     tech: 'TypeScript, React, HTML, CSS',
     description:
-      'The todo list app is a very basic todo list with the ability to add, cross off as completed, or remove todos from the list.  I built this app from a tutorial on youtube which helped me to learn the basics of TypeScript.',
+      'The todo list app is a basic todo list with the ability to add, cross off as completed, or remove todos from the list.  I built this app from a tutorial on youtube which helped me to learn the basics of TypeScript.',
   },
 };
 export default Descriptions;
