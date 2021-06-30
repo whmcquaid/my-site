@@ -12,8 +12,10 @@ const About = () => {
         <div className='right-col'>
           <p id='about'>
             Hello, my name is William and I am a full stack Developer. I love to
-            learn and I am passionate about coding. Right now, TypeScript, a
-            superset of JavaScript, is my favorite language to write code in.
+            learn and I am passionate about coding. Right now, I work a
+            full-time job cleaning, and repairing pools. Given the opportunity,
+            I would love to work with a team of developers in a collaborative
+            manner.
           </p>
         </div>
       </div>
