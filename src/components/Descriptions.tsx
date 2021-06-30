@@ -22,7 +22,7 @@ const Descriptions = {
   desc5: {
     tech: 'JavaScript, HTML, CSS',
     description:
-      'Thew library app was also part of the curriculum on The Odin Project.  This was the first time I had ever tried to save any state to local storage.',
+      'The library app was part of the curriculum from The Odin Project.  This was the first time I had ever tried to save any state to local storage.',
   },
   desc6: {
     tech: 'TypeScript, React, HTML, CSS',
