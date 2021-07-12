@@ -48,7 +48,7 @@ const Projects = () => {
         <div
           className='project2'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',
@@ -79,7 +79,7 @@ const Projects = () => {
         <div
           className='project3'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',
@@ -110,7 +110,7 @@ const Projects = () => {
         <div
           className='project4'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',
@@ -141,7 +141,7 @@ const Projects = () => {
         <div
           className='project5'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',
@@ -172,7 +172,7 @@ const Projects = () => {
         <div
           className='project6'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',
@@ -203,7 +203,7 @@ const Projects = () => {
         <div
           className='project7'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',

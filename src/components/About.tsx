@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <>
@@ -24,7 +23,7 @@ const About = () => {
             Odin Project, relearning this web thing. It's grown up quite a lot.
             In this process I have grown to love tackling challenges with code.
             In my experience this is best done as a team. If you would like to
-            get to reach out please <Link to='/Contact'>Contact</Link> me.
+            get to reach out please <a href='/contact'>Contact</a> me.
           </p>
         </div>
       </div>
