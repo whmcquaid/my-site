@@ -2,7 +2,6 @@ import ProjectDescription from './ProjectDescription';
 import { useState } from 'react';
 import Descriptions from './Descriptions';
 import FrameProps from './FrameProps';
-import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const [showDescription1, setShowDescription1] = useState(false);
@@ -26,9 +25,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='http://whmcquaid.github.io/React-RMDB/'>
+          <a href='http://whmcquaid.github.io/React-RMDB/'>
             <h2>React Movie App</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -57,9 +56,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='https://new-calc-seven.vercel.app/'>
+          <a href='https://new-calc-seven.vercel.app/'>
             <h2>React Context Calculator</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -88,9 +87,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='http://whmcquaid.github.io/tic-tac-toe'>
+          <a href='http://whmcquaid.github.io/tic-tac-toe'>
             <h2>Tic Tac Toe</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -119,9 +118,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='http://whmcquaid.github.io/etch_a_sketch'>
+          <a href='http://whmcquaid.github.io/etch_a_sketch'>
             <h2>Etch A Sketch</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -150,9 +149,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='http://whmcquaid.github.io/library_app'>
+          <a href='http://whmcquaid.github.io/library_app'>
             <h2>Library App</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -181,9 +180,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='http://whmcquaid.github.io/todo_list'>
+          <a href='http://whmcquaid.github.io/todo_list'>
             <h2>Todo List App</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -212,9 +211,9 @@ const Projects = () => {
             marginTop: '15px',
           }}
         >
-          <Link to='https://whmcquaid.github.io/rock_paper_scissors/'>
+          <a href='https://whmcquaid.github.io/rock_paper_scissors/'>
             <h2>Rock Paper Scissors</h2>
-          </Link>
+          </a>
           <div>
             <button
               className='desc-button'
@@ -222,6 +221,7 @@ const Projects = () => {
             >
               Description: ...
             </button>
+            84
           </div>
           {showDescription7 ? (
             <ProjectDescription {...Descriptions.desc7} />
