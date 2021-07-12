@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <>
@@ -18,7 +19,12 @@ const About = () => {
             manner. When I was in middle school I created my own guild website
             for my favorite game, diablo, by teaching myself html. I also
             learned some visual basic and turbo pascal. From then on I knew I
-            wanted to be in software development.
+            wanted to be in software development. For too long I gave up on that
+            dream. A little more than one year ago I began self-study on The
+            Odin Project, relearning this web thing. It's grown up quite a lot.
+            In this process I have grown to love tackling challenges with code.
+            In my experience this is best done as a team. If you would like to
+            get to reach out please <Link to='/Contact'>Contact</Link> me.
           </p>
         </div>
       </div>
