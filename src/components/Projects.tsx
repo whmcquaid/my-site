@@ -17,7 +17,7 @@ const Projects = () => {
         <div
           className='project1'
           style={{
-            width: '500px',
+            width: '450px',
             height: '600px',
             border: '2px solid silver',
             textAlign: 'center',
