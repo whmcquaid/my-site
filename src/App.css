@@ -228,7 +228,7 @@ span {
   }
   #about {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     width: 350px;
     height: 500px;
