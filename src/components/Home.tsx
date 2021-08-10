@@ -1,12 +1,12 @@
 import About from './About';
-import Projects from './Projects';
+import ProjectCard from './ProjectCard';
 
 const Home = () => {
   return (
-    <div className= 'home'>
-      <About/>
-      <Projects/>
+    <div className='home'>
+      <About />
+      <ProjectCard />
     </div>
-  )
-}
+  );
+};
 export default Home;

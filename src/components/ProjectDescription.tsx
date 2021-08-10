@@ -1,8 +1,6 @@
-type appProps = {
-  tech: string;
-  description: string;
-};
-export default function ProjectDescription(props: appProps) {
+import { Desc } from './Descriptions';
+
+export default function ProjectDescription(props: Desc) {
   return (
     <div className='description'>
       <p>
