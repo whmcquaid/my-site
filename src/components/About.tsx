@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <>
@@ -15,15 +16,19 @@ const About = () => {
             learn and I am passionate about coding. Right now, I work a
             full-time job cleaning, and repairing pools. Given the opportunity,
             I would love to work with a team of developers in a collaborative
-            manner. When I was in middle school I created my own guild website
-            for my favorite game, diablo, by teaching myself html. I also
-            learned some visual basic and turbo pascal. From then on I knew I
-            wanted to be in software development. For too long I gave up on that
-            dream. A little more than one year ago I began self-study on The
-            Odin Project, relearning this web thing. It's grown up quite a lot.
-            In this process I have grown to love tackling challenges with code.
-            In my experience this is best done as a team. If you would like to
-            reach out please contact me.
+            manner. I have always been a very curious person. Part of the reason
+            that I really enjoy software delelopment is that I never stop
+            learning. Many times I have come across unfamiliar problems and I
+            find them intriguing. I may not know how to solve a particular
+            problem at this moment, but I can confidently say that I will figure
+            it out. I really enjoy going down the rabbit hole that is often part
+            of the problem solving process, and learning something brand new
+            that I get to try out. My persistance is not easily swayed so I can
+            be found scouring MDN or stack overflow with a whole plethora of
+            browser tabs open until said problem is dealt with. The
+            gratification I get from solving problems with code is one of my
+            driving forces. If you would like to get to know more about me
+            please <Link to='/Contact'>reach out.</Link>
           </p>
         </div>
       </div>
