@@ -1,73 +1,82 @@
-const FrameProps = {
-  props1: {
-    src: 'https://whmcquaid.github.io/React-RMDB/',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '365px',
-      border: '8px solid silver',
-      paddingBottom: '25px',
-    },
-  },
-  props2: {
-    src: 'https://new-calc-seven.vercel.app/',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '385px',
-      border: '8px solid silver',
-      paddingBottom: '25px',
-    },
-  },
-  props3: {
-    src: 'https://whmcquaid.github.io/tic-tac-toe/',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '385px',
-      border: '8px solid silver',
-      paddingBottom: '25px',
-    },
-  },
-  props4: {
-    src: 'https://whmcquaid.github.io/etch_a_sketch',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '385px',
-      border: '8px solid silver',
-      paddingBottom: '25px',
-    },
-  },
-  props5: {
-    src: 'https://whmcquaid.github.io/library_app',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '385px',
-      border: '8px solid silver',
-      paddingBottom: '25px',
-    },
-  },
-  props6: {
-    src: 'https://whmcquaid.github.io/todo_list',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '385px',
-      border: '8px solid silver',
-      paddingBottom: '25px',
-    },
-  },
-  props7: {
-    src: 'https://whmcquaid.github.io/rock_paper_scissors/',
-    restOfProps: {
-      position: 'absolute',
-      height: '385px',
-      width: '385px',
-      border: '8px solid silver',
-      paddingBottom: '45px',
-    },
-  },
+export type FP = {
+  title: string;
+  src: string;
+  position: string;
+  width: string;
+  height: string;
+  border: string;
+  paddingBottom: string;
 };
+
+const FrameProps: FP[] = [
+  {
+    title: 'React Movie App',
+    src: 'https://whmcquaid.github.io/React-RMDB/',
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
+    title: 'React Calculator',
+    src: 'https://new-calc-seven.vercel.app/',
+
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
+    title: 'Tic Tac Toe',
+    src: 'https://whmcquaid.github.io/tic-tac-toe/',
+
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
+    title: 'Etch a Sketch',
+    src: 'https://whmcquaid.github.io/etch_a_sketch',
+
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
+    title: 'Library App',
+    src: 'https://whmcquaid.github.io/library_app',
+
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
+    title: 'Todo List App',
+    src: 'https://whmcquaid.github.io/todo_list',
+
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
+    title: 'Rock Paper Scissors',
+    src: 'https://whmcquaid.github.io/rock_paper_scissors/',
+
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '45px',
+  },
+];
 export default FrameProps;

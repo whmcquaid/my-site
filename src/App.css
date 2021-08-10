@@ -71,6 +71,7 @@ ul {
 }
 .projects div {
   margin-bottom: 3rem;
+  position: relative;
 }
 .about-container {
   padding-top: 30px;

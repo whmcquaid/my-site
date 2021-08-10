@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import ProjectDescription from './ProjectDescription';
 import { useState } from 'react';
 import Descriptions from './Descriptions';
@@ -17,8 +18,8 @@ const Projects = () => {
         <div
           className='project1'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -33,23 +34,19 @@ const Projects = () => {
               className='desc-button'
               onClick={() => setShowDescription1(!showDescription1)}
             >
-              Description: ...
+              Description:...
             </button>
           </div>
           {showDescription1 ? (
-            <ProjectDescription {...Descriptions.desc1} />
+            <ProjectDescription {...Descriptions['1']} />
           ) : null}
-          <iframe
-            title='React RMDB'
-            {...FrameProps.props1}
-            {...FrameProps.props1.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[0]}></iframe>
         </div>
         <div
           className='project2'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -68,19 +65,15 @@ const Projects = () => {
             </button>
           </div>
           {showDescription2 ? (
-            <ProjectDescription {...Descriptions.desc2} />
+            <ProjectDescription {...Descriptions['2']} />
           ) : null}
-          <iframe
-            title='React Context Calculator'
-            {...FrameProps.props2}
-            {...FrameProps.props2.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[1]}></iframe>
         </div>
         <div
           className='project3'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -99,19 +92,15 @@ const Projects = () => {
             </button>
           </div>
           {showDescription3 ? (
-            <ProjectDescription {...Descriptions.desc3} />
+            <ProjectDescription {...Descriptions['3']} />
           ) : null}
-          <iframe
-            title='Tic Tac Toe'
-            {...FrameProps.props3}
-            {...FrameProps.props3.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[2]}></iframe>
         </div>
         <div
           className='project4'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -130,19 +119,15 @@ const Projects = () => {
             </button>
           </div>
           {showDescription4 ? (
-            <ProjectDescription {...Descriptions.desc4} />
+            <ProjectDescription {...Descriptions['4']} />
           ) : null}
-          <iframe
-            title='Etch a Sketch'
-            {...FrameProps.props4}
-            {...FrameProps.props4.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[3]}></iframe>
         </div>
         <div
           className='project5'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -161,19 +146,15 @@ const Projects = () => {
             </button>
           </div>
           {showDescription5 ? (
-            <ProjectDescription {...Descriptions.desc5} />
+            <ProjectDescription {...Descriptions['5']} />
           ) : null}
-          <iframe
-            title='Library App'
-            {...FrameProps.props5}
-            {...FrameProps.props5.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[4]}></iframe>
         </div>
         <div
           className='project6'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -192,19 +173,15 @@ const Projects = () => {
             </button>
           </div>
           {showDescription6 ? (
-            <ProjectDescription {...Descriptions.desc6} />
+            <ProjectDescription {...Descriptions['6']} />
           ) : null}
-          <iframe
-            title='Todo List App'
-            {...FrameProps.props6}
-            {...FrameProps.props6.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[5]}></iframe>
         </div>
         <div
           className='project7'
           style={{
-            width: '99%',
-            height: '600px',
+            width: '98%',
+            height: '500px',
             border: '2px solid silver',
             textAlign: 'center',
             margin: '0 auto',
@@ -221,16 +198,11 @@ const Projects = () => {
             >
               Description: ...
             </button>
-            84
           </div>
           {showDescription7 ? (
-            <ProjectDescription {...Descriptions.desc7} />
+            <ProjectDescription {...Descriptions['7']} />
           ) : null}
-          <iframe
-            title='Todo List App'
-            {...FrameProps.props7}
-            {...FrameProps.props7.restOfProps}
-          ></iframe>
+          <iframe {...FrameProps[6]}></iframe>
         </div>
       </div>
     </>
