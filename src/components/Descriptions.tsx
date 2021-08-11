@@ -9,6 +9,11 @@ const Descriptions: Desc[] = [
       'This is the app I used to explore the possibilities of connecting a smoothly designed front-end with an existing API to produce an elegant product.',
   },
   {
+    tech: 'Gatsby, JavaScript, React, HTML, CSS, GraphQl',
+    description:
+      'I built this blog as a way to learn Gatsby and because I wanted a blog.  I love Gatsby for making static site generation so easy and fast.',
+  },
+  {
     tech: 'JavaScript, React, React Context-API, HTML, CSS, Styled-Components',
     description:
       'I built this Calculator to learn how to use React context and be able to share state with other components, without passing props, no matter how deeply they are nested.',

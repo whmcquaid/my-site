@@ -19,6 +19,15 @@ const FrameProps: FP[] = [
     paddingBottom: '25px',
   },
   {
+    title: 'My Blog',
+    src: 'https://myblog26211.gatsbyjs.io/',
+    position: 'absolute',
+    width: '600px',
+    height: '600px',
+    border: '8px solid silver',
+    paddingBottom: '25px',
+  },
+  {
     title: 'React Calculator',
     src: 'https://new-calc-seven.vercel.app/',
 

@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <div className='home'>
       <About />
+      <hr></hr>
       <ProjectCard />
     </div>
   );
