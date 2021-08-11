@@ -46,8 +46,7 @@ ul {
 .projects {
   text-align: center;
   align-content: center;
-  margin-bottom: 3.5rem;
-  display: block;
+  padding-bottom: 75px;
 }
 
 .description {
