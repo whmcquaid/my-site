@@ -1,10 +1,10 @@
 html {
-  font-size: 14px;
+  font-size: 16px;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
 }
 a {
-  color: white;
+  color: rgb(248, 244, 244);
   text-decoration: none;
 }
 a:hover {
@@ -21,24 +21,23 @@ ul {
 .header {
   display: flex;
   flex-direction: row;
-  height: 145px;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: rgb(245, 224, 180);
+  height: 15vh;
+  width: 100vw;
+  background-color: rgb(5, 5, 5);
+  color: rgb(228, 208, 167);
   border-bottom: 1px solid silver;
   margin: 0 auto;
 }
 #myh1 {
-  justify-content: center;
   text-align: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .Nav-container {
   align-self: end;
   text-align: right;
   font-weight: 600;
-  padding-right: 10px;
+  padding-right: 4vw;
 }
 .Nav-container ul li {
   min-width: 100px;
@@ -46,7 +45,7 @@ ul {
 .projects {
   text-align: center;
   align-content: center;
-  padding-bottom: 75px;
+  padding-bottom: 85px;
 }
 
 .description {
@@ -64,18 +63,23 @@ ul {
 .about-container {
   padding-top: 30px;
   margin: auto;
-  display: inline-flex;
-  align-self: center;
+  display: flex;
+  flex-direction: row;
   padding-bottom: 40px;
+  text-align: left;
 }
 .right-col {
-  flex-direction: column;
-  align-items: center;
-  margin-left: 150px;
+  display: flex;
+  align-self: center;
+  margin: 1.5rem;
+  margin-right: 2.5rem;
 }
 .left-col {
+  display: flex;
   flex-direction: column;
-  margin-left: 250px;
+  justify-content: center;
+  margin-left: 2.5rem;
+  vertical-align: middle;
 }
 #about {
   padding: 25px;
@@ -83,7 +87,6 @@ ul {
   font-size: 1.3rem;
   font-weight: 600;
   width: 98%;
-  justify-content: center;
 }
 .contact-email {
   font-weight: 500;
@@ -128,7 +131,7 @@ span Link {
   bottom: 0;
   height: 75px;
   width: 100%;
-  background-color: black;
+  background-color: rgb(5, 5, 5);
   text-align: right;
   border-top: 1px solid silver;
   margin-top: 20px;
@@ -153,4 +156,19 @@ span {
 [alt='Me: William McQuaid'] {
   max-height: 450px;
   max-width: 450px;
+}
+
+@media screen and (max-width: 700px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .left-col {
+    align-self: center;
+  }
+  [alt='Me: William McQuaid'] {
+    max-height: 35vh;
+    max-width: 30vw;
+  }
 }
