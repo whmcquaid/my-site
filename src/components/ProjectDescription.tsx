@@ -4,9 +4,8 @@ export default function ProjectDescription(props: Desc) {
   return (
     <div className="description">
       <p>{props.description}</p>
-      <p>
-        <strong>Technologies utilized:</strong> {props.tech}
-      </p>
+      <p className="tech">Technologies</p>{' '}
+      <p className="techList">{props.tech}</p>
     </div>
   );
 }

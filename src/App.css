@@ -4,15 +4,15 @@ html {
     sans-serif;
 }
 a {
-  color: rgb(248, 244, 244);
+  color: #2d3436;
   text-decoration: none;
 }
 a:hover {
-  color: rgb(245, 191, 90);
+  color: #d63031;
 }
 body {
-  background-color: #222f3e;
-  color: wheat;
+  background-color: #dfe6e9;
+  color: #2d3436;
   line-height: 1.5rem;
 }
 ul {
@@ -24,9 +24,8 @@ ul {
   flex-direction: row;
   height: 15vh;
   width: 100vw;
-
-  color: rgb(228, 208, 167);
-  border-bottom: 1px solid silver;
+  color: #d63031;
+  border-bottom: 3px solid #d63031;
   margin: 0 auto;
 }
 #myh1 {
@@ -43,19 +42,26 @@ ul {
 .Nav-container ul li {
   min-width: 100px;
 }
+.projectsh1 {
+  color: #d63031;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
   padding: 0 20px 85px;
 }
 .card {
+  background-color: #ff7675;
   flex-basis: 100%;
   margin-bottom: 2rem;
-  border: 1px solid silver;
+  border: 2px solid #d63031;
   border-radius: 10px;
 }
 .cardTitle {
   text-align: center;
+}
+.cardTitle a {
+  color: white;
 }
 
 .description {
@@ -63,10 +69,16 @@ ul {
   font-weight: 500;
   font-size: 1.1rem;
 }
-
+.tech {
+  color: white;
+  margin: 0;
+}
+.techList {
+  margin-top: 0.5rem;
+}
 .projectsh1 {
   text-align: center;
-  border-bottom: 1px solid silver;
+  border-bottom: 3px solid #d63031;
   padding-bottom: 20px;
 }
 
@@ -141,9 +153,9 @@ span Link {
   bottom: 0;
   height: 75px;
   width: 100%;
-  background-color: #222f3e;
+  background-color: #dfe6e9;
   text-align: right;
-  border-top: 1px solid silver;
+  border-top: 3px solid #d63031;
   margin-top: 20px;
 }
 .footer a {
@@ -160,7 +172,7 @@ span {
 }
 
 #headshot {
-  border: 5px solid silver;
+  border: 5px solid #d63031;
   border-radius: 65px;
 }
 [alt='Me: William McQuaid'] {

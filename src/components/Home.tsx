@@ -3,9 +3,9 @@ import ProjectCard from './ProjectCard';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <About />
-      <hr></hr>
+
       <ProjectCard />
     </div>
   );
