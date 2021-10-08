@@ -24,11 +24,9 @@ const About = () => {
             >
               Underdog Devs
             </a>{' '}
-            website where I have made major contributions. I have always been a
-            very curious person. Which is part of the reason that I really enjoy
-            software development. I am working on building a better future for
-            my family by making my dream become a reality. If you would like to
-            get to know more about me please{' '}
+            website where I have made major contributions. I am working on
+            building a better future for my family by making my dream become a
+            reality. If you would like to get to know more about me please{' '}
             <Link to="/Contact">reach out.</Link>
           </p>
         </div>
