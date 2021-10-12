@@ -6,12 +6,17 @@ const Descriptions: Desc[] = [
   {
     tech: 'JavaScript, React, HTML, CSS, Styled-Components',
     description:
-      'This is the app I used to explore the possibilities of connecting a smoothly designed front-end with an existing API to produce an elegant product.',
+      'This is the app I built to learn React and styled-components.  All data and images are pulled in from The Movie DB.',
+  },
+  {
+    tech: 'Vue, JavaScript, HTML, CSS',
+    description:
+      'I built this trivia app as a way to learn Vue.  All question and answer data is pulled in from The Trivia DB.',
   },
   {
     tech: 'Gatsby, JavaScript, React, HTML, CSS, GraphQl',
     description:
-      'I built this blog as a way to learn Gatsby and because I wanted a blog.  I love Gatsby for making static site generation so easy and fast.',
+      'I built this blog as a way to learn Gatsby static site generation.  I love how I can just upload a markdown file for a new blog post to be generated.',
   },
   {
     tech: 'JavaScript, React, React Context-API, HTML, CSS, Styled-Components',
@@ -21,7 +26,7 @@ const Descriptions: Desc[] = [
   {
     tech: 'JavaScript, React, HTML, CSS',
     description:
-      'Tic Tac Toe is an app I built from a tutorial which can be found in the documentation about React.  I added my own features including the name field which shares state with other components.  This is the game I used to learn React.',
+      'Tic Tac Toe is an app I built from a tutorial which can be found in the documentation about React.  I added my own features and refactored to use hooks instead of classes.',
   },
   {
     tech: 'JavaScript, HTML, CSS',
@@ -33,11 +38,7 @@ const Descriptions: Desc[] = [
     description:
       'The library app was part of the curriculum from The Odin Project.  This was the first time I had ever tried to save any state to local storage.',
   },
-  {
-    tech: 'TypeScript, React, HTML, CSS',
-    description:
-      'The todo list app is a basic todo list with the ability to add, cross off as completed, or remove todos from the list.  I built this app from a tutorial on youtube which helped me to learn TypeScript.',
-  },
+
   {
     tech: 'JavaScript, HTML, CSS',
     description:
