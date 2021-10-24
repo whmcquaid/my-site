@@ -28,6 +28,14 @@ const About = () => {
             building a better future for my family by making my dream become a
             reality. If you would like to get to know more about me please{' '}
             <Link to="/Contact">reach out.</Link>
+            {'  '}Additionally, if you like music,{' '}
+            <a
+              href="https://csb-fio6g.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              check out some songs I like.
+            </a>
           </p>
         </div>
       </div>

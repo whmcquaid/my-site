@@ -170,7 +170,9 @@ span Link {
 span {
   padding-right: 30px;
 }
-
+p a {
+  text-decoration: underline;
+}
 #headshot {
   border: 5px solid #d63031;
   border-radius: 65px;
