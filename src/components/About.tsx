@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
@@ -12,30 +12,16 @@ const About = () => {
         </div>
         <div className="right-col">
           <p id="about">
-            Hello, my name is William and I am a software engineer. I love to
-            learn and I am passionate about coding. Right now, I am blessed to
-            be part of the first cohort of Project Underdog. I receive a monthly
-            stipend from the organization 'Underdog Devs' while I focus full
-            time on honing my skills as an engineer. Check out the{' '}
-            <a
-              href="https://www.underdogdevs.org"
-              target="_blank"
-              rel="noreferrer"
-            >
+            Hello, my name is William and I am a full stack software engineer. I have about 14
+            months of work experience at Pilot.com Inc where I collaborated with team members to
+            contribute to a wide variety of features across the stack. I love to learn and I am
+            passionate about coding. Right now, I am looking for new opportunities while I hone my
+            skills. Check out the{" "}
+            <a href="https://www.underdogdevs.org" target="_blank" rel="noreferrer">
               Underdog Devs
-            </a>{' '}
-            website where I have made major contributions. I am working on
-            building a better future for my family by making my dream become a
-            reality. If you would like to get to know more about me please{' '}
-            <Link to="/Contact">reach out.</Link>
-            {'  '}Additionally, if you like music,{' '}
-            <a
-              href="https://csb-fio6g.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              check out some songs I like.
-            </a>
+            </a>{" "}
+            website where I have made major contributions. If you would like to get to know more
+            about me please <Link to="/Contact">reach out.</Link>
           </p>
         </div>
       </div>
