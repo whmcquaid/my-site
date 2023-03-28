@@ -5,37 +5,37 @@ export type FP = {
 
 const FrameProps: FP[] = [
   {
-    title: 'React Movie App',
-    src: 'https://whmcquaid.github.io/React-RMDB/',
+    title: "React Movie App",
+    src: "https://whmcquaid.github.io/React-RMDB/",
   },
   {
-    title: 'Trivia App',
-    src: 'https://vue-trivia-app-rouge.vercel.app/',
+    title: "Surf App",
+    src: "https://github.com/whmcquaid/surf-app",
   },
   {
-    title: 'My Blog',
-    src: 'https://myblog26211.gatsbyjs.io/',
+    title: "Trivia App",
+    src: "https://vue-trivia-app-rouge.vercel.app/",
   },
   {
-    title: 'React Calculator',
-    src: 'https://new-calc-seven.vercel.app/',
+    title: "My Blog",
+    src: "https://myblog26211.gatsbyjs.io/",
   },
   {
-    title: 'Tic Tac Toe',
-    src: 'https://whmcquaid.github.io/tic-tac-toe/',
+    title: "React Calculator",
+    src: "https://new-calc-seven.vercel.app/",
   },
   {
-    title: 'Etch a Sketch',
-    src: 'https://whmcquaid.github.io/etch_a_sketch',
+    title: "Etch a Sketch",
+    src: "https://whmcquaid.github.io/etch_a_sketch",
   },
   {
-    title: 'Library App',
-    src: 'https://whmcquaid.github.io/library_app',
+    title: "Library App",
+    src: "https://whmcquaid.github.io/library_app",
   },
 
   {
-    title: 'Rock Paper Scissors',
-    src: 'https://whmcquaid.github.io/rock_paper_scissors/',
+    title: "Rock Paper Scissors",
+    src: "https://whmcquaid.github.io/rock_paper_scissors/",
   },
 ];
 export default FrameProps;
